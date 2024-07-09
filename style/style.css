@@ -54,7 +54,7 @@
 .page-2min-div {
   padding: 80px 97px;
   margin: 74px 150px 150px 90;
-  margin: 74px 148px;
+  margin-top:74px; 
 }
 .heading-2 {
   font-size: 32px;
@@ -111,3 +111,23 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+/* 3rd page of the website  */
+.main-div3{
+    margin: 8px 150px 150px 150px;
+}
+.tird-page{
+    
+    text-align: center;
+    max-width: auto 852px;
+}
+.iframe{
+    text-align: center;
+    width:"1076";
+    height:"550";
+    overflow: hidden;
+    border-radius: 1.5rem ;
+}
+.rounded {
+    border-radius: 1.5rem !important;
+}   
