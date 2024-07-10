@@ -60,6 +60,8 @@
   font-size: 32px;
   font-weight: 800;
   text-align: center;
+  color:
+  rgb(13, 19, 33);
 }
 .para-2 {
   text-align: center;
@@ -111,8 +113,41 @@
   font-size: 20px;
   font-weight: 600;
 }
+.insp{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
+
+.des-pro{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin: 0 0 48px 0;
+    font-size: 16px;
+}
+
 
 /* 3rd page of the website  */
+.p3p2{
+    font-size: 32px;
+    font-weight: 800px;
+    line-height: 37px;
+    color: rgb(13, 19, 33);
+    margin: 0px;
+}
+.p3p2para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
 .main-div3{
     margin: 8px 150px 150px 150px;
 }
@@ -120,14 +155,93 @@
     
     text-align: center;
     max-width: auto 852px;
+    /* padding: 144px; */
 }
-.iframe{
+.y-vid{
     text-align: center;
     width:"1076";
     height:"550";
     overflow: hidden;
     border-radius: 1.5rem ;
 }
-.rounded {
-    border-radius: 1.5rem !important;
-}   
+/* html css js part design p3p2  */
+.div-p3p2{
+    text-align: center;
+}
+.div-3{
+    display: flex;
+    margin: 48px 150px 110px 150px;
+    justify-content: space-between;
+}
+.div-01{
+    padding: 40px;
+    max-width: 364px;
+    background-color: rgba(255, 76, 30, 0.05);
+    /* line-height: 36px; */
+    /* text-align: center; */
+}
+
+.div-02{
+    padding: 40px;
+    max-width: 364px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.div-03{
+    padding: 40px;
+    max-width: 364px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.cls-3{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 26px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+/* I need support section  */
+.background2{
+    background: rgba(0, 0, 0, 0.3 ) url(../assets/handshake.jpg);
+    height: 500px;
+    /* width: 1140px; */
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 41px 150px 79px 150px;
+    background-position: 50% 50%;   
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+   background-blend-mode: darken;
+
+}
+.inp{
+    padding: 19px 20px 19px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: rgb(255, 255, 255);
+    
+}
+.inp::placeholder{
+    font-size: 16px;
+}
+.submit{
+    padding: 17px 20px 17px 20px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 53);
+    border-radius: 8px;
+    margin: 16px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.background{
+    padding:64px 48px;
+    color: white;
+
+}
+.header03{
+    font-size: 32px; 
+}
