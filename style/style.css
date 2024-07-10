@@ -34,7 +34,7 @@
   opacity: 0.7;
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 0px;
+  margin-bottom: 80px;
   color: #0d1321;
 }
 /* button  */
@@ -47,7 +47,8 @@
   font-weight: 600;
   border: none;
   cursor: pointer;
-  margin-top: 45px;
+  text-decoration: none ;
+  margin: 50px;
 }
 
 /* page 02 design  */
@@ -277,4 +278,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 30px;
+}
+html{
+    scroll-behavior: smooth;
 }
